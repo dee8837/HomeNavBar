@@ -1,0 +1,51 @@
+
+
+.first{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #140c2d;
+    color: white;
+    border-radius: 1rem;
+    position: fixed;
+    top: 100px;
+    width: calc(100% - 60px);
+    transition: top 0.5s;
+ 
+}
+.first-active{
+    margin: 0px;
+    top: 0px;
+    width: 100% !important;
+    border-radius: 0px;
+}
+.btn{
+    font-size: large;
+    font-weight: 500;
+    color:white;
+     
+   
+}
+.btn:hover{
+    background-color: #bf28de;
+}
+.text-link, .nav-link {
+    font-size: large;
+    color: rgb(231, 226, 226);       
+    
+}
+body{
+    background-color: #271739;
+    color: rgb(243, 238, 238);
+}
+.text-link{
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+   
+  }
+
+
+
+
